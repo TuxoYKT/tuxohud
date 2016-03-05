@@ -1,4 +1,4 @@
-tf2basehud
+tuxohud
 ==========
 
-Team Fortress 2's original/basic HUD. Use this to start customizing your own.
+Team Fortress 2 custom HUD. Inspired by e.v.eHUD and sweetHud.
