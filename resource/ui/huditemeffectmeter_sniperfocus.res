@@ -72,7 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_cleaver"
+		"icon"			"ico_focus"
 		"iconColor"		"White"
 	}
 	"ItemEffectIconShadow"	
@@ -88,8 +88,8 @@
 		"visible_minmode"       "0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_cleaver"
-		"iconColor"		"Black"
+		"icon"			"ico_focus"
+		"iconColor"		"customShadow"
 	}
 
 	"ItemEffectMeter"
@@ -124,7 +124,7 @@
 		"visible"       "1"
 		"visible_minmode"       "0"
 		"enabled"       "1"
-		"fillcolor"     "Black"
+		"fillcolor"     "customShadow"
 		"PaintBackgroundType" "0"
 	}		
 }

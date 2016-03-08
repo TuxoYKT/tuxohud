@@ -408,7 +408,7 @@
 			"brighttext"		"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
+			"fgcolor_override"	"customShadow"
 			"labelText"			"%carrying%"
 		}
 

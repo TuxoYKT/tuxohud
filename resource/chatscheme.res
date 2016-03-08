@@ -222,23 +222,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -247,7 +249,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -256,7 +258,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -315,7 +317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Condensed"
 				"tall"		"12"	[$WIN32]
 				"tall"		"15"	[$X360]
 				"weight"	"700"
@@ -324,7 +326,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Condensed"
 				"tall"		"14"	[$WIN32]
 				"tall"		"17"	[$X360]
 				"weight"	"700"
@@ -333,7 +335,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Condensed"
 				"tall"		"15"	[$WIN32]
 				"tall"		"18"	[$X360]
 				"weight"	"700"
@@ -342,7 +344,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Condensed"
 				"tall"		"17"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"700"
@@ -351,7 +353,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Condensed"
 				"tall"		"22"	[$WIN32]
 				"tall"		"25"	[$X360]
 				"weight"	"700"
@@ -767,5 +769,31 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"		
+		"3" 
+		{
+			"font" "resource/fonts/Roboto-Black.ttf"
+			"name" "Roboto"
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}
+		}
+		"4" 
+		{
+			"font" "resource/fonts/RobotoCondensed-Regular"
+			"name" "Roboto Condensed"
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}
+		}
 	}
 }

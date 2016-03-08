@@ -65,7 +65,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_cleaver"
+		"icon"			"ico_crits"
 		"iconColor"		"White"
 	}
 	"ItemEffectIconShadow"	
@@ -81,8 +81,8 @@
 		"visible_minmode"       "0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_cleaver"
-		"iconColor"		"Black"
+		"icon"			"ico_crits"
+		"iconColor"		"customShadow"
 	}
 
 	"ItemEffectMeter"
@@ -145,6 +145,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Roboto25"
-		"fgcolor"				"Black"
+		"fgcolor"				"customShadow"
 	}
 }

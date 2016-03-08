@@ -3458,5 +3458,37 @@
 			"width"		"128"
 			"height"	"128"
 		}
+		"ico_crits"
+		{	
+			"file"		"vgui\logos\tuxohud\ico_crits"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ico_heads"
+		{	
+			"file"		"vgui\logos\tuxohud\ico_heads"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ico_focus"
+		{	
+			"file"		"vgui\logos\tuxohud\ico_focus"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ico_jumps"
+		{	
+			"file"		"vgui\logos\tuxohud\ico_jumps"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
 	}
 }

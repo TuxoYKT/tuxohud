@@ -84,7 +84,7 @@
 		"fieldName"     "ChargeMeter1"
 		"xpos"			"32"
 		"ypos"			"32"
-		"zpos"			"1"
+		"zpos"			"-100"
 		"wide"			"86"
 		"tall"			"45"	
 		"autoResize"    "0"
@@ -92,7 +92,7 @@
 		"visible"       "1"
 		"visible_minmode"       "0"
 		"enabled"       "1"
-		"fillcolor"     "Black"
+		"fillcolor"     "customShadow"
 		"PaintBackgroundType" "0"
 	}	
 

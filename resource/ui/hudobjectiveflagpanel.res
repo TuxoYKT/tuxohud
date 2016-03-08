@@ -156,7 +156,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Roboto30"
-		"fgcolor"		"Black"
+		"fgcolor"		"customShadow"
 		
 		"if_hybrid"
 		{
@@ -224,7 +224,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Roboto30"
-		"fgcolor"		"Black"		
+		"fgcolor"		"customShadow"		
 		
 		"if_hybrid"
 		{

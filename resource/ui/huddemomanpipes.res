@@ -127,7 +127,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"Roboto25"
-			"fgcolor"		"black"
+			"fgcolor"		"customShadow"
 		}		
 	}
 	
@@ -210,7 +210,7 @@
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
+			"fgcolor"		"customShadow"
 		}			
 	}				
 }

@@ -106,7 +106,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"north-east"	
 		"font"			"Roboto35"
-		"fgcolor"		"Black"
+		"fgcolor"		"customShadow"
 	}
 	"PlayerStatusBleedImage"
 	{

@@ -89,7 +89,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"Roboto20"
-		"fgcolor"		"Black"
+		"fgcolor"		"customShadow"
 	}	
 							
 	"RedScore"
@@ -123,7 +123,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"Roboto20"
-		"fgcolor"		"Black"		
+		"fgcolor"		"customShadow"		
 	}
 
 	"PlayingToCluster"

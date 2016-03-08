@@ -18,6 +18,9 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//tuxohud colors
+		"customShadow"		"66 53 60 200"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -454,6 +457,14 @@ Scheme
 	Fonts
 	{
 		//tuxohud fonts
+		"Roboto5"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"5"
+			}
+		}
 		"Roboto10"
 		{
 			"1"
@@ -536,13 +547,20 @@ Scheme
 			}
 		}
 		
+		"RobotoCondensed5"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed"
+				"tall"		"5"
+			}
+		}
 		"RobotoCondensed10"
 		{
 			"1"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"10"
-				"antialias"	"1"
 			}
 		}
 		"RobotoCondensed15"
@@ -5334,7 +5352,7 @@ Scheme
 		"7" "resource/ocra.ttf"
 		"8" 
 		{
-			"font" "resource/fonts/Roboto-Black.ttf"
+			"font" "resource/fonts/roboto-black.ttf"
 			"name" "Roboto"
 			"english"
 			{
@@ -5347,7 +5365,7 @@ Scheme
 		}
 		"9" 
 		{
-			"font" "resource/fonts/RobotoCondensed-Regular"
+			"font" "resource/fonts/robotocondensed-regular"
 			"name" "Roboto Condensed"
 			"english"
 			{
