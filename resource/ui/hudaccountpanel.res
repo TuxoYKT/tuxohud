@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"Black"
+		"iconColor"		"customShadow"
 	}
 	
 	"AccountValue"
@@ -102,6 +102,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Roboto25"
-		"fgcolor"		"Black"
+		"fgcolor"		"customShadow"
 	}
 }

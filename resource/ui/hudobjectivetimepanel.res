@@ -12,12 +12,19 @@
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
+		"wide_lodef"	"90"
 		"tall"			"33"
 		"tall_minmode"	"23"
+		"tall_lodef"	"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -43,6 +50,11 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -70,6 +82,19 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto10"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"HudFontSmall"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"Roboto10"
+			"font_hidef"			"Roboto10"
+			"font_lodef"			"Roboto10"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -88,6 +113,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -115,6 +145,17 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto10"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"Roboto10"
+			"font_hidef"			"Roboto10"
+			"font_lodef"			"Roboto10"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -133,6 +174,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -159,7 +205,20 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10"
+		"font"			"Roboto10SuddenDeath"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"HudFontSmall"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"Roboto10"
+			"font_hidef"			"Roboto10"
+			"font_lodef"			"Roboto10"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -178,6 +237,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -205,6 +269,17 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto10"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"Roboto10"
+			"font_hidef"			"Roboto10"
+			"font_lodef"			"Roboto10"
+		}
 	}	
 	"SetupBG"
 	{
@@ -223,6 +298,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -250,6 +330,20 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto10"
+		"font_minmode"	"Roboto10SuddenDeath"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"HudFontSmall"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"Roboto10"
+			"font_hidef"			"Roboto10"
+			"font_lodef"			"Roboto10"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -267,6 +361,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		
+		if_comp
+		{
+			"wide"	"0"
+		}	
 	}
 }

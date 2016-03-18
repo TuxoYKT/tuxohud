@@ -106,7 +106,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"leaderboard_streak"
-		"iconColor"		"Black"
+		"iconColor"		"customShadow"
 	}	
 	
 	"ItemEffectMeterCount"
@@ -147,6 +147,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Roboto20"
-		"fgcolor"				"Black"
+		"fgcolor"				"customShadow"
 	}
 }

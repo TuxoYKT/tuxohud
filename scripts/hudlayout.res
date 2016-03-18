@@ -90,12 +90,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-40"	
-		"ypos"			"c100"	
+		"ypos"			"c40"	
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"80"
 		"tall"			"10"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"customShadow"
 		"fgcolor_override"		"White"
 	}
 
@@ -104,18 +104,13 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-40"	
+		"ypos"			"c40"	
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"80"
+		"tall"			"10"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"customShadow"
 	}
 
 	HudFlameRocketCharge
@@ -478,31 +473,27 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r640"
+		"ypos"	 "18"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "8"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"Roboto10"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"46 43 42 170"
+		"LocalBackgroundColor"	"245 229 196 150"
 	}
 
 	HudVehicle
@@ -964,12 +955,11 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"xpos"			"c-60"
+		"ypos"			"46"
 		"wide"	 		"320"
 		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyBuild"
@@ -1464,5 +1454,39 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 }

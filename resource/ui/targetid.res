@@ -6,7 +6,7 @@
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"250"
 		"tall"	 		"10"
 		"autoResize"	"0"
@@ -53,7 +53,7 @@
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"252"
 		"tall"	 		"30"
 		"autoResize"		"0"
@@ -62,11 +62,11 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"35"				// pixels inside the image
+		"src_corner_width"		"35"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -74,7 +74,7 @@
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"252"
 		"tall"	 		"30"
 		"autoResize"		"0"
@@ -84,11 +84,11 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"35"				// pixels inside the image
+		"src_corner_width"		"35"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"
@@ -97,7 +97,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Roboto15"
 		"font_minmode"	"TFFontLarge"
-		"xpos"			"8"
+		"xpos"			"0"
 		"xpos_minmode"	"30"
 		"ypos"			"5"
 		"ypos_minmode"	"5"
@@ -119,7 +119,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"RobotoCondensed10"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"40"
+		"xpos"			"20"
 		"ypos"			"17"	[$WIN32]
 		"xpos_minmode"	"30"
 		"ypos_minmode"	"12"	[$WIN32]
@@ -140,18 +140,17 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
 		"ypos"			"2"
-		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"Roboto15"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
+		"textAlignment"		"west"
 	}	
 	
 	"AmmoIcon"

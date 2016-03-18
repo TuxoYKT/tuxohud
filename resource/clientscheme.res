@@ -20,6 +20,13 @@ Scheme
 	{
 		//tuxohud colors
 		"customShadow"		"66 53 60 200"
+		"customHTMLBG"		"0 0 0 150"
+		"customFGcolor"				"255 255 255 255"
+		"customBGcolor"				"41 37 38 255"
+		"customDefaultBgColor" 		"41 37 38 255"
+		"customArmedBgColor" 		"41 37 38 100"
+		"customDepressedBgColor" 	"41 37 38 255"
+		"customSelectedBgColor" 	"41 37 38 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -363,7 +370,7 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"Gray"
+		TextEntry.TextColor			"White"
 		TextEntry.BgColor			"Blank"
 		TextEntry.CursorColor		"Gray"
 		TextEntry.DisabledTextColor	"Gray"
@@ -480,6 +487,15 @@ Scheme
 			{
 				"name"		"Roboto"
 				"tall"		"15"
+				"antialias"	"1"
+			}
+		}
+		"Roboto18"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"18"
 				"antialias"	"1"
 			}
 		}
@@ -3013,6 +3029,29 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"	"TF2"
+				"tall"	"36"
+				"weight"	"500"
+				"range"	"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"	"TF2 Secondary"
+				"tall"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 
 	}
 
@@ -5276,6 +5315,30 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
