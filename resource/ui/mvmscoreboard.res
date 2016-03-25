@@ -19,36 +19,58 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"Roboto20"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"375"
-		"wide"			"290"
+		"textAlignment"	"west"
+		"xpos"			"40"
+		"ypos"			"270"
+		"wide"			"320"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"446"
+		"ypos"			"265"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"205"
 		"visible"		"1"
+		
+		
+		"DifficultyBackground"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"DifficultyBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"117"
+			"tall"			"135"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../HUD/tournament_panel_brown"
+
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Roboto10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"150"
+			"ypos"			"10"
+			"wide"			"117"
 			"tall"			"10"
 			"fgcolor"		"tanlight"
 		}
@@ -57,12 +79,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"Roboto15"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
-			"wide"			"150"
+			"ypos"			"19"
+			"wide"			"117"
 			"tall"			"10"
 			"fgcolor"		"tanlight"
 		}
@@ -72,10 +94,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"25"
-		"ypos"			"75"
+		"xpos"			"35"
+		"ypos"			"100"
 		"zpos"			"-1"
-		"wide"			"550"
+		"wide"			"528"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,11 +105,10 @@
 		
 		"scaleImage"		"1"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	
 	"MvMPlayerList"
@@ -95,8 +116,8 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"35"
-		"ypos"			"79"
-		"wide"			"530"
+		"ypos"			"102"
+		"wide"			"528"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,9 +132,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
-		"wide"			"400"
+		"xpos"			"35"
+		"ypos"			"265"
+		"wide"			"528"
 		"tall"			"205"
 		"visible"		"1"
 		
@@ -124,7 +145,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"400"
+			"wide"			"402"
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -132,25 +153,25 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"Roboto18"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
 			"wide"			"100"
 			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
+			"visible"		"0"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -205,7 +226,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"Roboto15"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"

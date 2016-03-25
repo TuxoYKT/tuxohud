@@ -28,6 +28,11 @@ Scheme
 		"customDepressedBgColor" 	"41 37 38 255"
 		"customSelectedBgColor" 	"41 37 38 255"
 		
+		"customBT"					"153 204 255 255"
+		"customRT"					"255 63 53 255"
+		
+		"customTarget"				"0 0 0 130"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"

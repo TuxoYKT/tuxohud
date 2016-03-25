@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"			"c-231"	[$WIN32]
 		"ypos"			"r75"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -62,11 +60,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

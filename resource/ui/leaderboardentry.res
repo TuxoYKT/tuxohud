@@ -9,7 +9,7 @@
 		"zpos"			"2"
 		"wide"			"275"
 		"tall"			"22"
-		"visible"		"1"
+		"visible"		"0"
 	
 		"Background"
 		{
@@ -20,7 +20,7 @@
 			"zpos"			"2"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -33,8 +33,8 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -53,8 +53,8 @@
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"wrap"			"0"
 		}	
 	}	

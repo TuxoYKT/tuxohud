@@ -18,23 +18,21 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Roboto15"
 		"fgcolor"		"TanLight"
 		"xpos"			"200"
 		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"110"
-		"wide_minmode"	"-300"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
@@ -67,7 +65,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Roboto15"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -94,9 +92,6 @@
 		"zpos"			"3"
 		"wide"			"178"
 		"tall"			"10"
-		"xpos_minmode"	"231"
-		"ypos_minmode"	"8"
-		"wide_minmode"	"138"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
@@ -104,8 +99,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"ProgressBarBG"
@@ -117,9 +112,6 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"xpos_minmode"	"230"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"140"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
@@ -127,7 +119,7 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }

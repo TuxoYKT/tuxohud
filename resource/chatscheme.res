@@ -223,8 +223,44 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Roboto"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Roboto"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Roboto"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Roboto"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -279,11 +315,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
-				"tall"		"18"
-				"weight"	"700"
-				"antialias"	"1"
-				"dropshadow"	"1"
+				"name"			"Roboto" // Chat font
+				"tall"			"12" // Font size
+				"weight"		"700" // Font weight
+				"yres"			"480 599" // Yres
+				"dropshadow"	"1" // Shadow
+				"antialias"		"1" // Antialias
+			}
+			"2"
+			{
+				"name"			"Roboto" // Chat font
+				"tall"			"14" // Font size
+				"weight"		"700" // Font weight
+				"yres"			"600 767" // Yres
+				"dropshadow"	"1" // Shadow
+				"antialias"		"1" // Antialias
+			}
+			"3"
+			{
+				"name"			"Roboto" // Chat font
+				"tall"			"15" // Font size
+				"weight"		"700" // Font weight
+				"yres"			"768 1023" // Yres
+				"dropshadow"	"1" // Shadow
+				"antialias"		"1" // Antialias
+			}
+			"4"
+			{
+				"name"			"Roboto" // Chat font
+				"tall"			"17" // Font size
+				"weight"		"700" // Font weight
+				"yres"			"1024 1199" // Yres
+				"dropshadow"	"1" // Shadow
+				"antialias"		"1" // Antialias
+			}
+			"5"
+			{
+				"name"			"Roboto" // Chat font
+				"tall"			"22" // Font size
+				"weight"		"700" // Font weight
+				"yres"			"1200 10000" // Yres
+				"dropshadow"	"1" // Shadow
+				"antialias"		"1" // Antialias
 			}
 		}
 

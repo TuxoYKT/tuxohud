@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Roboto15"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -87,7 +87,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"Roboto10"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -115,7 +115,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"HudFontMediumBold"
+		"font"			"Roboto20"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
 		"xpos"			"126"
@@ -129,7 +129,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Roboto20"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"
