@@ -13,7 +13,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -25,48 +25,35 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"3"
-		"delta_item_font"		"Roboto20"
+		"delta_item_font"		"ffont20"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Roboto10"
+			"delta_item_font"		"ffont10"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Roboto20"
+			"font"			"ffont20"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"25"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"60"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			if_comp
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"ypos"			"9"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"Roboto10"
-			}
 		}	
 	}
 
@@ -75,7 +62,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"90"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -87,51 +74,35 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"3"
-		"delta_item_font"		"Roboto20"
+		"delta_item_font"		"ffont20"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Roboto10"
+			"delta_item_font"		"ffont10"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Roboto20"
+			"font"			"ffont20"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"25"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"60"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_comp
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"ypos"			"9"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"Roboto10"
-				"font_minmode"	"Roboto10"
-				"font_lodef"	"Roboto10"
-			
-			}
 		}	
 	}
 	
@@ -143,7 +114,7 @@
 		"ypos"				"9"
 		"zpos"				"1"
 		"wide"				"78"
-		"tall"				"33"
+		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	

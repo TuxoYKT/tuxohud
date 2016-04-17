@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-30"
-		"ypos"			"0"
+		"xpos"			"c-45"
+		"ypos"			"20"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
 	
@@ -15,56 +15,56 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
+			"xpos"			"0"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"40"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"../vgui/logos/tuxohud/bg/color_panel_blu"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"7"
+			"xpos"			"16"
+			"ypos"			"6"
 			"zpos"			"2"
-			"wide"			"30"
+			"wide"			"22"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"ffont20"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
+			"xpos"			"18"
 			"ypos"			"8"
 			"zpos"			"1"
-			"wide"			"30"
+			"wide"			"24"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"ffont20"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
@@ -74,7 +74,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"12"
+			"xpos"			"5"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"8"
@@ -90,10 +90,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-30"
-		"ypos"			"21"
+		"xpos"			"c5"
+		"ypos"			"20"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
 	
@@ -101,66 +101,66 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
+			"xpos"			"0"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"40"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
+			"image"			"../vgui/logos/tuxohud/bg/color_panel_red"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"7"
+			"xpos"			"16"
+			"ypos"			"6"
 			"zpos"			"2"
-			"wide"			"30"
+			"wide"			"22"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"ffont20"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 		"countshadow"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
+			"xpos"			"18"
 			"ypos"			"8"
 			"zpos"			"1"
-			"wide"			"30"
+			"wide"			"24"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"ffont20"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
 		}
-	
+		
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"12"
+			"xpos"			"5"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"8"
@@ -169,6 +169,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}		
 	}
 }

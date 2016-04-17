@@ -23,13 +23,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-100"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r32"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"60"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
+		"image"			"../vgui/logos/tuxohud/bg/color_panel_blu"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -52,15 +52,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c-100"
-		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"xpos"			"c70"
+		"ypos"			"r32"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"60"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
+		"image"			"../vgui/logos/tuxohud/bg/color_panel_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -114,16 +113,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-140"
-		"ypos"			"r58"
+		"xpos"			"c-100"
+		"ypos"			"r32"
 		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"35"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
-		"font"			"Roboto30"
+		"font"			"ffont20"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -146,16 +145,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-138"
-		"ypos"			"r56"
-		"zpos"			"7"
-		"wide"			"75"
-		"tall"			"35"
+		"xpos"			"c-98"
+		"ypos"			"r30"
+		"zpos"			"8"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Roboto30"
+		"font"			"ffont20"
 		"fgcolor"		"customShadow"
 		
 		"if_hybrid"
@@ -178,18 +177,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c64"
-		"ypos"			"r58"
+		"xpos"			"c70"
+		"ypos"			"r32"
 		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
-		"font"			"Roboto30"
+		"font"			"ffont20"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -212,18 +209,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c66"
-		"ypos"			"r56"
-		"zpos"			"7"
-		"wide"			"75"
-		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"xpos"			"c72"
+		"ypos"			"r30"
+		"zpos"			"8"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
-		"font"			"Roboto30"
+		"font"			"ffont20"
 		"fgcolor"		"customShadow"		
 		
 		"if_hybrid"
@@ -262,12 +257,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"xpos"			"c-30"
+		"ypos"			"r110"
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -288,21 +282,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"c-65"
+		"ypos"			"r12"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
-		"tall"			"30"
+		"wide"			"130"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Roboto15"
+		"font"			"ffont10"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -323,20 +314,16 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"xpos"			"c-65"
+		"ypos"			"r12"
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"130"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"fillcolor"		"0 0 0 195"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -360,11 +347,10 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-115"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r85"
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -401,11 +387,10 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-45"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r85"
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -441,8 +426,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-40"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r85"
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
@@ -496,12 +480,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"xpos"			"c-30"
+		"ypos"			"r130"
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"

@@ -67,58 +67,37 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"10"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
+		"delta_item_x"			"25"	[$WIN32]
 		"delta_item_x"			"115"	[$X360]
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
-
-		if_comp
-		{
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
+		"delta_item_font"		"ffont20"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"ffont20"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"25"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"60"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			if_comp
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"9"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-			}
 		}	
 	}
 }

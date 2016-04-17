@@ -5,15 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r164"	[$WIN32]
-		"ypos"			"r51"	[$WIN32]
-		"xpos_minmode"	"r30"	[$WIN32]
-		"ypos_minmode"	"r94"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c110"
+		"ypos"			"r165"
+		"wide"			"116"
+		"tall"  		"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -27,8 +22,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -49,7 +43,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -57,6 +51,37 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+	}
+	
+	"ItemEffectIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"30"
+		"ypos"			"16"
+		"zpos"			"1"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_heads"
+		"iconColor"		"White"
+	}
+	"ItemEffectIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"32"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_heads"
+		"iconColor"		"customShadow"
 	}
 
 	"ItemEffectMeter"
@@ -79,25 +104,46 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}				
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"48"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"55"
+		"tall"					"26"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"ffont20"
+		"fgcolor"				"White"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"50"
+		"ypos"					"12"
+		"zpos"					"2"
+		"wide"					"55"
+		"tall"					"26"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"ffont20"
+		"fgcolor"				"customShadow"
 	}
 }

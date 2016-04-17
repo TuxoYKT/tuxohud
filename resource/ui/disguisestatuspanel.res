@@ -58,7 +58,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"xpos"			"42"
 		"ypos"			"31"
 		"zpos"			"1"
@@ -78,7 +78,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"xpos"			"42"
 		"ypos"			"45"
 		"zpos"			"1"
@@ -106,7 +106,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"Roboto15"
+		"TFFont"		"ffont15"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	

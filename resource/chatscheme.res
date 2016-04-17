@@ -33,8 +33,8 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Bright					"40 40 40 196"	// the lit side of a control
+		Border.Dark						"0 0 0 196"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
@@ -222,23 +222,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Roboto"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Roboto"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -247,7 +249,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Roboto"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -256,7 +258,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Roboto"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -315,7 +317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Roboto" // Chat font
+				"name"			"Verdana" // Chat font
 				"tall"			"12" // Font size
 				"weight"		"700" // Font weight
 				"yres"			"480 599" // Yres
@@ -324,7 +326,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Roboto" // Chat font
+				"name"			"Verdana" // Chat font
 				"tall"			"14" // Font size
 				"weight"		"700" // Font weight
 				"yres"			"600 767" // Yres
@@ -333,7 +335,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Roboto" // Chat font
+				"name"			"Verdana" // Chat font
 				"tall"			"15" // Font size
 				"weight"		"700" // Font weight
 				"yres"			"768 1023" // Yres
@@ -342,7 +344,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Roboto" // Chat font
+				"name"			"Verdana" // Chat font
 				"tall"			"17" // Font size
 				"weight"		"700" // Font weight
 				"yres"			"1024 1199" // Yres
@@ -351,7 +353,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Roboto" // Chat font
+				"name"			"Verdana" // Chat font
 				"tall"			"22" // Font size
 				"weight"		"700" // Font weight
 				"yres"			"1200 10000" // Yres
@@ -769,21 +771,8 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 		"3" 
 		{
-			"font" "resource/fonts/Roboto-Black.ttf"
-			"name" "Roboto"
-			"english"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}
-		}
-		"4" 
-		{
-			"font" "resource/fonts/RobotoCondensed-Regular"
-			"name" "Roboto Condensed"
+			"font" "resource/fonts/Verdana-Black.ttf"
+			"name" "Verdana"
 			"english"
 			{
 				"range" "0x0000 0xFFFF"

@@ -97,7 +97,7 @@
 		"zpos"			"0"
 		"wide"		"528"
 		"wide_minmode"	"264"
-		"tall"		"268"
+		"tall"		"288"
 		"tall_minmode"	"191"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -172,7 +172,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Roboto40"
+		"font"			"ffont40"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -197,7 +197,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Roboto40"
+		"font"			"ffont40"
 		"fgcolor" 		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -223,7 +223,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
@@ -248,7 +248,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Roboto40"
+		"font"			"ffont40"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -301,7 +301,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Roboto40"
+		"font"			"ffont40"
 		"fgcolor" "black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
@@ -349,37 +349,13 @@
 			"visible"		"0"
 		}
 	}
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"Roboto10"
-		"fgcolor" "255 255 255 255"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"		"36"
-		"xpos_minmode"	"1"
-		"ypos"		"356"
-		"ypos_minmode"	"69"
-		"zpos"		"10"
-		"wide"	"211"
-		"tall"	"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"ServerTimeLeft"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Roboto10"
-		"font_minmode"		"surface14"
+		"font"			"ffont10"
+		"font_minmode"		"ffont14"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
@@ -458,42 +434,17 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
-	"Spectators"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Spectators"
-		"font"			"surface9"
-		"fgcolor" "255 255 255 255"
-		"labelText"		"%spectators%"
-		"textAlignment"		"west"
-		"xpos"		"41"
-		"xpos_minmode"	"2"
-		"ypos"		"333"
-		"ypos_minmode"	"399"
-		"zpos"			"4"
-		"wide"		"518"
-		"wide_minmode"	"260"
-		"tall"	"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"if_mvm"
-		{
-			"visible"		"0"
-		}
-	}	
+	
 	"SpectatorsInQueue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"surface9"
+		"font"			"ffont10"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
-		"xpos"		"38"
+		"xpos"		"36"
 		"xpos_minmode"	"2"
-		"ypos"		"395"
+		"ypos"		"356"
 		"ypos_minmode"	"411"
 		"zpos"			"4"
 		"wide"		"424"
@@ -504,7 +455,58 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"	"255 255 255 255"
-	}							
+	}
+	"Spectators"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"Spectators"
+		"font"			"ffont10"
+		"fgcolor" "255 255 255 255"
+		"labelText"		"%spectators%"
+		"textAlignment"		"west"
+		"xpos"		"36"
+		"xpos_minmode"	"2"
+		"ypos"		"365"
+		"ypos_minmode"	"399"
+		"zpos"			"4"
+		"wide"		"518"
+		"wide_minmode"	"260"
+		"tall"	"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"if_mvm"
+		{
+			"visible"		"0"
+		}
+	}	
+	"ServerLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabel"
+		"font"			"ffont10"
+		"fgcolor" "255 255 255 255"
+		"labelText"		"%server%"
+		"textAlignment"		"west"
+		"xpos"		"36"
+		"xpos_minmode"	"1"
+		"ypos"		"374"
+		"ypos_minmode"	"69"
+		"zpos"		"10"
+		"wide"	"211"
+		"tall"	"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
 	"ShadedBar"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -605,17 +607,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"labelText"		"%mapname%"
 		"textAlignment"		"east"
 		"xpos"		"462"
 		"xpos_minmode"	"12"
-		"ypos"		"352"
+		"ypos"		"374"
 		"ypos_minmode"	"370"
 		"zpos"			"3"
 		"wide"		"100"
 		"wide_minmode"	"90"
-		"tall"		"20"
+		"tall"		"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -631,7 +633,7 @@
 			"wide"			"117"
 			
 			"textAlignment"		"center"
-			"font"			"Roboto15"
+			"font"			"ffont15"
 		}
 	}
 
@@ -656,7 +658,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"surface11"
+			"font"			"ffont11"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"		"78"
@@ -755,7 +757,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"surface12"
+				"font"			"ffont12"
 			}
 			"Score"
 			{
@@ -775,8 +777,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"surface24"
-				"font_minmode"		"Roboto30"
+				"font"			"ffont24"
+				"font_minmode"		"ffont30"
 				"fgcolor"		"255 255 255 255"
 			}
 		}
@@ -848,7 +850,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"surface12"
+				"font"			"ffont12"
 			}
 			"Score"
 			{
@@ -868,8 +870,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"surface24"
-				"font_minmode"		"Roboto30"
+				"font"			"ffont24"
+				"font_minmode"		"ffont30"
 				"fgcolor"		"255 255 255 255"
 			}
 		}		
@@ -905,7 +907,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"labelText"			"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"				"150"
@@ -922,7 +924,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills"
-			"font"				"Roboto30"
+			"font"				"ffont30"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
@@ -942,7 +944,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsWhite"
-			"font"				"Roboto30"
+			"font"				"ffont30"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
@@ -963,8 +965,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabel"
-			"font"				"Roboto30"
-			"font_minmode"		"Roboto25"
+			"font"				"ffont30"
+			"font_minmode"		"ffont25"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			":"
 			"textAlignment"		"center"
@@ -984,7 +986,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"Roboto30"
+			"font"				"ffont30"
 			"fgcolor" 			"255 255 255 255"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
@@ -1004,7 +1006,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsWhite"
-			"font"				"Roboto30"
+			"font"				"ffont30"
 			"fgcolor" 			"255 255 255 255"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
@@ -1025,7 +1027,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor" 			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
@@ -1045,7 +1047,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Captures"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
@@ -1065,7 +1067,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
@@ -1087,7 +1089,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
 			"fgcolor"			"255 255 255 255"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"175"
@@ -1106,7 +1108,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Assists"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%assists%"
 			"textAlignment"		"west"
@@ -1126,7 +1128,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%assists%"
 			"textAlignment"		"west"
@@ -1147,7 +1149,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
@@ -1167,7 +1169,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Destruction"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
@@ -1187,7 +1189,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
@@ -1208,7 +1210,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
@@ -1228,7 +1230,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Defenses"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
@@ -1248,7 +1250,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
@@ -1269,7 +1271,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
@@ -1289,7 +1291,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Domination"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
@@ -1309,7 +1311,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
@@ -1330,7 +1332,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
@@ -1350,7 +1352,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Revenge"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
@@ -1370,7 +1372,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
@@ -1391,7 +1393,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
@@ -1411,7 +1413,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Invuln"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
@@ -1431,7 +1433,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
@@ -1452,7 +1454,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
@@ -1472,7 +1474,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Headshots"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
@@ -1492,7 +1494,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
@@ -1513,7 +1515,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
@@ -1533,7 +1535,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Teleports"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
@@ -1553,7 +1555,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
@@ -1574,7 +1576,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
@@ -1594,7 +1596,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Healing"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
@@ -1614,7 +1616,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
@@ -1635,7 +1637,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
@@ -1655,7 +1657,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Backstabs"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"
@@ -1675,7 +1677,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"
@@ -1696,7 +1698,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
@@ -1716,7 +1718,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"
@@ -1736,7 +1738,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"
@@ -1757,7 +1759,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
@@ -1778,7 +1780,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Bonus"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
@@ -1798,7 +1800,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
@@ -1819,7 +1821,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportLabel"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
@@ -1839,7 +1841,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Support"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%support%"
 			"textAlignment"		"west"
@@ -1859,7 +1861,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportWhite"
-			"font"				"Roboto10"
+			"font"				"ffont10"
 			"fgcolor"			"255 255 255 255"
 			"labelText"			"%support%"
 			"textAlignment"		"west"

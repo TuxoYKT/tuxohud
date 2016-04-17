@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"fgcolor"		"TanLight"
 	}	
 		
@@ -88,7 +88,7 @@
 		"enabled"		"0"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"fgcolor"		"customShadow"
 	}	
 							
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"fgcolor"		"TanLight"		
 	}	
 		
@@ -122,7 +122,7 @@
 		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"fgcolor"		"customShadow"		
 	}
 
@@ -153,7 +153,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Roboto10"
+			"font"			"ffont10"
 			"fgcolor"		"TanLight"
 		}	
 				

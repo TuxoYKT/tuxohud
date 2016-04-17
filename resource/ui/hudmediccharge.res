@@ -35,7 +35,7 @@
 		"textAlignment"	"north-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Roboto35"
+		"font"			"ffont35"
 		"fgcolor"		"White"
 	}
 
@@ -55,7 +55,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"north-west"
-		"font"			"Roboto35"
+		"font"			"ffont35"
 		"fgcolor"		"White"
 	}
 	

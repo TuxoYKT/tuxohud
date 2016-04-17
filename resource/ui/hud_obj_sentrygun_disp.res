@@ -24,7 +24,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"22"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
@@ -181,7 +181,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"ffont8"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -245,7 +245,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
+				"font"			"ffont8"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"

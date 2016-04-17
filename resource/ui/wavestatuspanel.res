@@ -26,7 +26,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"TanLight"
 		"xpos"			"200"
 		"ypos"			"6"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"

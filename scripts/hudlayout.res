@@ -56,7 +56,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
+		"xpos"			"c110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
@@ -230,10 +230,10 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Roboto10"
+		"TextFont"		"ffont10"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -270,8 +270,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
+		"xpos" "c390" 	[$WIN32]
+		"ypos" "r32"	[$WIN32]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -327,7 +327,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-60"
+		"xpos"			"c-50"
 		"ypos"			"46"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -339,9 +339,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"					"c110"
+		"xpos"					"c-50"
 		"ypos"					"r150"
-		"wide"					"116"
+		"wide"					"100"
 		"tall"  				"50"
 	}
 	
@@ -364,5 +364,31 @@
 		"wide"			"400"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
-	}	
+	}
+	
+	BuildingStatus_Spy
+	{
+		"fieldName" "BuildingStatus_Spy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"-10"
+		"ypos"		"134"	
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+	
+	BuildingStatus_Engineer
+	{
+		"fieldName" "BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"-10"
+		"ypos"		"134"
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
 }

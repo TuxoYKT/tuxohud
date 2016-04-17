@@ -5,16 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"x_offset"		"0"
+		"xpos"			"c110"
+		"ypos"			"r160"
+		"wide"			"116"
+		"tall"  		"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -28,7 +23,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
@@ -43,19 +38,15 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"67"
+		"ypos"					"28"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
@@ -63,20 +54,48 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
+	
+	"ItemEffectIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"30"
+		"ypos"			"16"
+		"zpos"			"1"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_drink"
+		"iconColor"		"White"
+	}
+	"ItemEffectIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"32"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_drink"
+		"iconColor"		"customShadow"
+	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"45"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
-		"tall"					"5"				
+		"xpos"					"48"
+		"ypos"					"20"
+		"zpos"					"1"
+		"wide"					"55"
+		"tall"					"5"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -84,5 +103,21 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
+	"ItemEffectMeterShadow"
+    {
+		"ControlName"   "ImagePanel"
+		"fieldName"     "PlayerStatusHealthValueBg"
+		"xpos"			"50"
+		"ypos"			"22"
+		"zpos"			"1"
+		"wide"			"55"
+		"tall"			"5"	
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
+		"fillcolor"     "customShadow"
+		"PaintBackgroundType" "0"
+	}				
 }

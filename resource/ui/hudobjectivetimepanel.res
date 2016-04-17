@@ -4,21 +4,15 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
+		"xpos"			"25"
 		"ypos"			"9"
 		"zpos"			"2"
-		"wide"			"78"
-		"wide_lodef"	"90"
+		"wide"			"60"
 		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
-
-		if_comp
-		{
-			"visible"	"0"
-		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -29,7 +23,7 @@
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"	
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -59,29 +53,24 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ffont10"
 
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"Roboto10"
-			"font_hidef"			"Roboto10"
-			"font_lodef"			"Roboto10"
+			"font"					"ffont10"
 		}
 	}			
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"25"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"60"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -109,29 +98,28 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10"
+		"font"			"ffont8"
 
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"Roboto10"
-			"font_hidef"			"Roboto10"
-			"font_lodef"			"Roboto10"
+			"font"					"ffont10"
+			"font_hidef"			"ffont10"
+			"font_lodef"			"ffont10"
 		}
 	}			
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"25"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"60"
 		"tall"			"20"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
@@ -157,26 +145,23 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10SuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ffont8"
 
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"font"					"Roboto10"
+			"font"					"ffont10"
 		}
 	}			
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"25"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"60"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -204,25 +189,24 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"Roboto10"
+			"font"					"ffont10"
 		}
 	}	
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"25"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"60"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -250,14 +234,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"Roboto10"
+			"font"					"ffont10"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

@@ -76,7 +76,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"north-east"	
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"north-east"	
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"customShadow"
 	}
 	"PlayerStatusBleedImage"

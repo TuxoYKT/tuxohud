@@ -49,7 +49,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderShadow"
-				"font"			"Roboto20"
+				"font"			"ffont20"
 				"labelText"		"%headershadow%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -63,7 +63,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"Roboto20"
+				"font"			"ffont20"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -78,7 +78,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditLabel"
-			"font"			"Roboto20"
+			"font"			"ffont20"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"80"
@@ -115,7 +115,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingLabel"
-				"font"			"Roboto20"
+				"font"			"ffont20"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -181,7 +181,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

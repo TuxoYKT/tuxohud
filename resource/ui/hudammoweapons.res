@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"White"
 		"xpos"			"30"
 		"ypos"			"60"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"customShadow"
 		"xpos"			"32"
 		"ypos"			"62"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Roboto25"
+		"font"			"f_ammoinreserve"
 		"fgcolor"		"White"
 		"xpos"			"30"
 		"ypos"			"40"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Roboto25"
+		"font"			"f_ammoinreserve"
 		"fgcolor"		"customShadow"
 		"xpos"			"32"
 		"ypos"			"42"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"White"
 		"xpos"			"30"
 		"ypos"			"60"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Roboto35"
+		"font"			"f_ingamevalue"
 		"fgcolor"		"customShadow"
 		"xpos"			"32"
 		"ypos"			"62"

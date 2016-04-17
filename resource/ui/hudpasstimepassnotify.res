@@ -31,10 +31,10 @@ Resource/UI/HudPasstimePassNotify.res
 	{
 		ControlName 				EditablePanel
 		fieldName 					TextBox
-		xpos 						c-150
+		xpos 						c-100
 		ypos 						c-180
 		zpos 						1
-		wide 						300
+		wide 						200
 		tall 						56
 		visible 					1
 		enabled 					1
@@ -45,11 +45,11 @@ Resource/UI/HudPasstimePassNotify.res
 		{
 			ControlName 			CExLabel
 			fieldName 				TextInPassRange
-			font 					HudFontMediumSmallBold
+			font 					ffont15
 			xpos 					0
 			ypos 					0
 			zpos 					3
-			wide 					300
+			wide 					200
 			tall 					32
 			visible 				1
 			enabled 				1
@@ -63,12 +63,12 @@ Resource/UI/HudPasstimePassNotify.res
 		{
 			ControlName 			CExLabel
 			fieldName 				TextLockedOn
-			font 					HudFontMediumSmallBold
+			font 					ffont15
 			xpos 					0
 			ypos 					0
 			zpos 					3
-			wide 					300
-			tall 					40
+			wide 					200
+			tall 					32
 			visible 				1
 			enabled 				1
 			centerwrap				1
@@ -81,11 +81,11 @@ Resource/UI/HudPasstimePassNotify.res
 		{
 			ControlName 			CExLabel
 			fieldName 				TextPassIncoming
-			font 					HudFontMediumSmallBold
+			font 					ffont15
 			xpos 					0
 			ypos 					4
 			zpos 					3
-			wide 					300
+			wide 					200
 			tall 					32
 			visible 				1
 			enabled 				1
@@ -99,11 +99,11 @@ Resource/UI/HudPasstimePassNotify.res
 		{
 			ControlName 			CExLabel
 			fieldName 				TextPlayerName
-			font 					HudFontSmall
+			font 					ffont10
 			xpos 					0
 			ypos 					40
 			zpos 					3
-			wide 					300
+			wide 					200
 			tall 					16
 			visible 				1
 			enabled 				1

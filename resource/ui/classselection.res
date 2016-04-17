@@ -59,7 +59,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 				
 		"image_default"		"class_sel_sm_random_inactive"
@@ -161,7 +161,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
 		"textAlignment"	"left"
-		"font"			"Roboto18"
+		"font"			"ffont18"
 		"fgcolor"		"White"
 	}
 	
@@ -183,7 +183,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -234,7 +234,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -285,7 +285,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -335,7 +335,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
 		"textAlignment"	"left"
-		"font"			"Roboto18"
+		"font"			"ffont18"
 		"fgcolor"		"White"
 	}
 	"demoman"
@@ -356,7 +356,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -407,7 +407,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -458,7 +458,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -508,7 +508,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
 		"textAlignment"	"left"
-		"font"			"Roboto18"
+		"font"			"ffont18"
 		"fgcolor"		"White"
 	}
 	"medic"
@@ -529,7 +529,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -580,7 +580,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 		
 		"fgcolor"									"50 50 50 255"
@@ -631,7 +631,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"Roboto20"
+		"font"				"ffont20"
 		"scaleImage"		"1"
 
 		"fgcolor"									"50 50 50 255"
@@ -682,7 +682,7 @@
 		"labelText"		"#TF_ClassMenu_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"Roboto20"
+		"font"			"ffont20"
 		"fgcolor_override" "200 80 60 255"
 		"PaintBackground" 	"0"
 		
@@ -710,7 +710,7 @@
 		"labelText"		"Edit Loadout (&E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"PaintBackground"	"1"
 			
 		"fgcolor"					"customFGcolor"
@@ -816,9 +816,9 @@
         "tall"                  "f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"../vgui/logos/tuxohud/null_texture"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_1"		"../vgui/logos/tuxohud/null_texture"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"scaleImage"		"1"			
@@ -1109,7 +1109,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}	
 	
@@ -1129,7 +1129,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}		
 	
@@ -1149,7 +1149,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}			
 	
@@ -1169,7 +1169,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}				
 	
@@ -1189,7 +1189,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}					
 	
@@ -1209,7 +1209,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}						
 	
@@ -1229,7 +1229,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}							
 	
@@ -1249,7 +1249,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}						
 	
@@ -1269,7 +1269,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"customGreen"
 	}								
 	

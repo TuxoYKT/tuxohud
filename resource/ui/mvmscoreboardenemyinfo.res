@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescriptionLabel"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"labelText"		"%description%"
 		"textAlignment" "north-west"
 		"xpos"			"20"

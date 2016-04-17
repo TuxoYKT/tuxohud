@@ -121,7 +121,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto20"
+		"font"					"ffont20"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -141,7 +141,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto20"
+		"font"					"ffont20"
 		"fgcolor"				"customShadow"
 	}
 }

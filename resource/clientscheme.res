@@ -30,6 +30,8 @@ Scheme
 		
 		"customBT"					"153 204 255 255"
 		"customRT"					"255 63 53 255"
+		"customBTDark"				"103 154 205 255"
+		"customRTDark"				"205 13 3 255"
 		
 		"customTarget"				"0 0 0 130"
 		
@@ -469,189 +471,176 @@ Scheme
 	Fonts
 	{
 		//tuxohud fonts
-		"Roboto5"
+		"damage"
 		{
 			"1"
 			{
-				"name"		"Roboto"
-				"tall"		"5"
-			}
-		}
-		"Roboto10"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"10"
-				"antialias"	"1"
-			}
-		}
-		"Roboto15"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"15"
-				"antialias"	"1"
-			}
-		}
-		"Roboto18"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"18"
-				"antialias"	"1"
-			}
-		}
-		"Roboto20"
-		{
-			"1"
-			{
-				"name"		"Roboto"
+				"name"		"Clear Sans"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 		}
-		"Roboto25"
+		"damagebig"
 		{
 			"1"
 			{
-				"name"		"Roboto"
-				"tall"		"25"
-				"antialias"	"1"
-			}
-		}
-		"Roboto30"
-		{
-			"1"
-			{
-				"name"		"Roboto"
+				"name"		"Clear Sans"
 				"tall"		"30"
 				"antialias"	"1"
 			}
 		}
-		"Roboto35"
+
+		//Health and ammo font
+		"f_ingamevalue"
 		{
 			"1"
 			{
-				"name"		"Roboto"
+				"name"		"Arimo"
 				"tall"		"35"
 				"antialias"	"1"
 			}
 		}
-		"Roboto40"
+		"f_ammoinreserve"
 		{
 			"1"
 			{
-				"name"		"Roboto"
-				"tall"		"40"
-				"antialias"	"1"
-			}
-		}
-		"Roboto45"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"45"
-				"antialias"	"1"
-			}
-		}
-		"Roboto50"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"50"
+				"name"		"Arimo"
+				"tall"		"25"
 				"antialias"	"1"
 			}
 		}
 		
-		"RobotoCondensed5"
+		
+		"ffont5"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"5"
 			}
 		}
-		"RobotoCondensed10"
+		"ffont8"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
-				"tall"		"10"
+				"name"		"Clear Sans"
+				"tall"		"8"
+				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed15"
+		"ffont10"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+		"ffont11"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
+				"tall"		"11"
+				"antialias"	"1"
+			}
+		}
+		"ffont12"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+		"ffont15"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
 				"tall"		"15"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed20"
+		"ffont18"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		"ffont20"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed25"
+		"ffont25"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"25"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed30"
+		"ffont30"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"30"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed35"
+		"ffont35"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"35"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed40"
+		"ffont40"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"40"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed45"
+		"ffont45"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
 				"tall"		"45"
 				"antialias"	"1"
 			}
 		}
-		"RobotoCondensed50"
+		"ffont48"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Clear Sans"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		"ffont50"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
 				"tall"		"50"
 				"antialias"	"1"
 			}
@@ -5420,8 +5409,8 @@ Scheme
 		"7" "resource/ocra.ttf"
 		"8" 
 		{
-			"font" "resource/fonts/roboto-black.ttf"
-			"name" "Roboto"
+			"font" "resource/fonts/clearsans-bold.ttf"
+			"name" "Clear Sans"
 			"english"
 			{
 				"range" "0x0000 0xFFFF"
@@ -5433,8 +5422,8 @@ Scheme
 		}
 		"9" 
 		{
-			"font" "resource/fonts/robotocondensed-regular"
-			"name" "Roboto Condensed"
+			"font" "resource/fonts/arimo-bold.ttf"
+			"name" "Arimo"
 			"english"
 			{
 				"range" "0x0000 0xFFFF"

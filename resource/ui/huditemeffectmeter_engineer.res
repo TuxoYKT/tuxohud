@@ -120,7 +120,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto25"
+		"font"					"ffont25"
 		"fgcolor"				"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -140,7 +140,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto25"
+		"font"					"ffont25"
 		"fgcolor"				"customShadow"
 	}
 }

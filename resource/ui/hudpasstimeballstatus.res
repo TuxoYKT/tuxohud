@@ -32,9 +32,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
+		"font"			"ffont20"
 		"xpos"			0
-		"ypos"			c100
+		"ypos"			c120
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"ffont18"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"ffont15"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -282,7 +282,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		"font"					"Roboto10"
+		"font"					"ffont10"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"400"

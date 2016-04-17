@@ -15,6 +15,10 @@
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 
 	"WaitingForPlayersLabel"

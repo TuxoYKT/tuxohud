@@ -21,7 +21,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"xpos"			"24"
 		"ypos"			"50"
 		"zpos"			"3"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"Roboto15"
+		"font"			"ffont15"
 		"fgcolor"		"Black"
 		"xpos"			"25"
 		"ypos"			"51"
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"xpos"			"20"
 		"ypos"			"190"
 		"zpos"			"2"
@@ -81,7 +81,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel2"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"xpos"			"35"
 		"ypos"			"190"
 		"zpos"			"2"
@@ -403,7 +403,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"86"
@@ -424,7 +424,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"123"
@@ -445,7 +445,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Roboto10"
+		"font"			"ffont10"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"159"
