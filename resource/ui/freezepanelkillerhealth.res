@@ -45,10 +45,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"32"
+		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -70,6 +70,21 @@
 		"textAlignment"	"center"	
 		"font"			"ffont18"
 		"fgcolor"		"White"
-		"color_outline"		"0 0 0 255"
-	}								
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthShadow"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"ffont18"
+		"fgcolor"		"customShadow"
+	}		
 }

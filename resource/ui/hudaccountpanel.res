@@ -80,7 +80,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ffont25"
+		"font"			"f_itemsvalue"
 		"fgcolor"		"White"
 	}
 	"AccountValueShadow"
@@ -101,7 +101,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ffont25"
+		"font"			"f_itemsvalue"
 		"fgcolor"		"customShadow"
 	}
 }

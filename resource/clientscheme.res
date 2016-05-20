@@ -28,12 +28,21 @@ Scheme
 		"customDepressedBgColor" 	"41 37 38 255"
 		"customSelectedBgColor" 	"41 37 38 255"
 		
-		"customBT"					"153 204 255 255"
-		"customRT"					"255 63 53 255"
-		"customBTDark"				"103 154 205 255"
-		"customRTDark"				"205 13 3 255"
+		"customBT"					"153 204 255 120"
+		"customRT"					"255 63 53 120"
+		"customBTDark"				"103 154 205 120"
+		"customRTDark"				"205 13 3 120"
 		
 		"customTarget"				"0 0 0 130"
+		
+		"sc_kills"					"255 255 255 255"
+		"sc_deaths"					"255 255 255 255"
+		
+		"mainmenuFG"				"255 255 255 255"
+		"mainmenuFGHighlight"		"116 226 226 255"
+		
+		"streamsBG"					"0 0 0 80"
+		"streamsFG"					"50 50 50 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -377,7 +386,7 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"White"
+		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
 		TextEntry.CursorColor		"Gray"
 		TextEntry.DisabledTextColor	"Gray"
@@ -470,7 +479,8 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		//tuxohud fonts
+	//tuxohud fonts
+		//hit indicator fonts
 		"damage"
 		{
 			"1"
@@ -509,8 +519,37 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"f_itemsvalue"
+		{
+			"1"
+			{
+				"name"		"Arimo"
+				"tall"		"25"
+				"antialias"	"1"
+			}
+		}
+		"f_killstreak"
+		{
+			"1"
+			{
+				"name"		"Arimo"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
 		
-		
+		//mainmenu fonts
+		"mainmenufont"
+		{
+			"1"
+			{
+				"name"		"Clear Sans"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+	
+	//custom fonts
 		"ffont5"
 		{
 			"1"
@@ -645,6 +684,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
@@ -1814,14 +1854,24 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		"ScoreboardTeamNameNew"
+		"ScoreboardTeamCountNew"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1905,7 +1955,51 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ControlPointTimer"
 		{
 			"1"
@@ -3023,29 +3117,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		"MatchSummaryTeamScores"
-		{
-			"1"
-			{
-				"name"	"TF2"
-				"tall"	"36"
-				"weight"	"500"
-				"range"	"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		"MatchSummaryStatsAndMedals"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 
 	}
 
@@ -3055,6 +3126,47 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+	
+		StreamsBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "streamsFG"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "streamsFG"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "streamsFG"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "streamsFG"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -3424,12 +3536,56 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -5314,7 +5470,7 @@ Scheme
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
-		
+
 		RedWithThinBorder
 		{
 			"bordertype"			"scalable_image"

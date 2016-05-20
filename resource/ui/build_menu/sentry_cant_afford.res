@@ -12,4 +12,9 @@
 	{	
 		"labelText"		"1"
 	}
+	
+	"CantBuildReason"
+	{
+		"ypos"			"20"
+	}
 }

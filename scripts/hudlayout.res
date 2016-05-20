@@ -385,10 +385,61 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"-10"
-		"ypos"		"134"
+		"ypos"		"136"
 		"wide"		"640"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+	}
+	
+	"HudAchievementTracker"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudAchievementTracker"
+		"xpos"			"2"
+		"NormalY"		"145"
+		"EngineerY"		"300"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"200"
+		"visible"		"0"
+		"enabled"		"0"	
+	}
+
+	"HudMenuEngyBuild"
+	{
+		"fieldName" 	"HudMenuEngyBuild"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"134"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudMenuEngyDestroy"
+	{
+		"fieldName" 	"HudMenuEngyDestroy"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"134"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+	}
+	
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-100"
+		"ypos"					"215"
+		"wide"					"200"
+		"tall"					"300"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 }

@@ -19,15 +19,15 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"		
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"		
 	}
 	"ArrowIcon"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ArrowIcon"
 		"xpos"			"20"
-		"ypos"			"35"
+		"ypos"			"36"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"10"
@@ -40,7 +40,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
+		"font"			"ffont15"
 		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"2"
