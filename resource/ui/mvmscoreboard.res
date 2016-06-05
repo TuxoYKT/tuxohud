@@ -49,11 +49,31 @@
 			"zpos"			"-1"
 			"wide"			"117"
 			"tall"			"135"
-			"autoResize"	"0"
+			"autoResize"	"1"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fillcolor"				"0 0 0 100"
+
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
+		"DifficultyBackgroundW"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"DifficultyBackgroundW"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"117"
+			"tall"			"135"
+			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"fillcolor"				"0 0 0 100"
 
 			"src_corner_height"		"25"
 			"src_corner_width"		"25"
@@ -99,7 +119,7 @@
 		"zpos"			"-1"
 		"wide"			"528"
 		"tall"			"150"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
 		
@@ -110,6 +130,27 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
+	"PlayerListBackgroundW"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"PlayerListBackgroundW"
+		"xpos"			"35"
+		"ypos"			"100"
+		"zpos"			"-1"
+		"wide"			"528"
+		"tall"			"150"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}
+	
 	
 	"MvMPlayerList"
 	{
@@ -149,9 +190,29 @@
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
+
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
+		"CreditStatsBackgroundW"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"CreditStatsBackgroundW"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"402"
+			"tall"			"135"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"			"0 0 0 100"
 
 			"src_corner_height"		"25"
 			"src_corner_width"		"25"
