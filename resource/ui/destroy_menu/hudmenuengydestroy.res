@@ -111,10 +111,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_1"
-		"xpos"			"108"
+		"xpos"			"14"
 		"ypos"			"11"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"58"
 		"visible"		"1"
 	}	
@@ -123,10 +123,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_2"
-		"xpos"			"108"
+		"xpos"			"14"
 		"ypos"			"71"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"30"
 		"visible"		"1"
 	}	
@@ -135,10 +135,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_3"
-		"xpos"			"108"
+		"xpos"			"14"
 		"ypos"			"102"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"30"
 		"visible"		"1"
 	}	
@@ -147,10 +147,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_4"
-		"xpos"			"108"
+		"xpos"			"14"
 		"ypos"			"133"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"30"
 		"visible"		"1"
 	}

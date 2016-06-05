@@ -29,7 +29,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"50 50 50 205"
+		"fillcolor"				"0 0 0 205"
 		"PaintBackgroundType"	"1"
 	}
 	

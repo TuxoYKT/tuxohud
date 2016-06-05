@@ -7,7 +7,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"wide"	 		"280"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"0"
@@ -20,7 +20,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"	[$WIN32]
-		"ypos"			"90"
+		"ypos"			"70"
 		"wide"	 		"280"
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"

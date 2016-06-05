@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
+		"image"			"../vgui/replay/thumbnails/bg/death_panel_blue_bg"
 		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_2"		"../vgui/replay/thumbnails/bg/death_panel_red_bg"
+		"teambg_3"		"../vgui/replay/thumbnails/bg/death_panel_blue_bg"
 
 		if_comp
 		{
@@ -27,7 +27,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"ffont12"
 		"xpos"			"80"
 		"ypos"			"135"
 		"zpos"			"1"
@@ -51,7 +51,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmall"
+		"font"			"ffont12"
 		"xpos"			"80"
 		"ypos"			"150"
 		"zpos"			"1"
@@ -160,7 +160,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBoldShadow"
+			"font"			"ffont12"
 			"xpos"			"25"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -189,7 +189,7 @@
 			"enabled"		"1"
 			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"ffont10"
 			"maxchars"		"-1"
 		}
 
@@ -226,7 +226,7 @@
 			"enabled"		"1"
 			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"ffont10"
 			"maxchars"		"-1"
 		}
 	}	

@@ -219,8 +219,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
 		"defaultFgColor_override" 		"White"
-		"defaultBgColor_override" 		"100 165 65 255"
-		"armedFgColor_override" 		"100 165 65 255"
+		"defaultBgColor_override" 		"142 92 184 255"
+		"armedFgColor_override" 		"142 92 184 255"
 		"armedBgColor_override" 		"White"
 	}	
 }

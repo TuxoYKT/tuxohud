@@ -45,7 +45,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"389"
 		"zpos"				"6"
 		"wide"				"150"
@@ -98,7 +98,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Line1"
-		"xpos"				"c127"
+		"xpos"				"r300"
 		"ypos"				"60"
 		"zpos"				"2"
 		"wide"				"150"
@@ -115,7 +115,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Line2"
-		"xpos"				"c127"
+		"xpos"				"r300"
 		"ypos"				"177"
 		"zpos"				"2"
 		"wide"				"150"
@@ -132,7 +132,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Line3"
-		"xpos"				"c127"
+		"xpos"				"r300"
 		"ypos"				"293"
 		"zpos"				"2"
 		"wide"				"150"
@@ -149,7 +149,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
-		"xpos"			"c135"
+		"xpos"			"r300"
 		"ypos"			"28"
 		"zpos"			"2"
 		"wide"			"150"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"66"
 		"zpos"				"6"
 		"wide"				"150"
@@ -220,7 +220,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c134"
+		"xpos"				"r300"
 		"ypos"				"96"
 		"zpos"				"6"
 		"wide"				"150"
@@ -271,7 +271,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"126"
 		"zpos"				"6"
 		"wide"				"150"
@@ -323,7 +323,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
-		"xpos"			"c135"
+		"xpos"			"r300"
 		"ypos"			"145"
 		"zpos"			"2"
 		"wide"			"150"
@@ -342,7 +342,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"184"
 		"zpos"				"6"
 		"wide"				"150"
@@ -393,7 +393,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"215"
 		"zpos"				"6"
 		"wide"				"150"
@@ -444,7 +444,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"245"
 		"zpos"				"6"
 		"wide"				"150"
@@ -496,7 +496,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
-		"xpos"			"c135"
+		"xpos"			"r300"
 		"ypos"			"260"
 		"zpos"			"2"
 		"wide"			"150"
@@ -515,7 +515,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"299"
 		"zpos"				"6"
 		"wide"				"150"
@@ -566,7 +566,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"329"
 		"zpos"				"6"
 		"wide"				"150"
@@ -617,7 +617,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c135"
+		"xpos"				"r300"
 		"ypos"				"359"
 		"zpos"				"6"
 		"wide"				"150"
@@ -669,7 +669,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c135"
+		"xpos"			"r300"
 		"ypos"			"429"
 		"zpos"			"6"
 		"wide"			"100"
@@ -816,9 +816,9 @@
         "tall"                  "f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/tuxohud/null_texture"
+		"image"			"../vgui/replay/thumbnails/bg/class_arena_bg"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/logos/tuxohud/null_texture"
+		"teambg_1"		"../vgui/replay/thumbnails/bg/class_arena_bg"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"scaleImage"		"1"			
@@ -1097,7 +1097,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"77"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1117,7 +1117,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"107"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1137,7 +1137,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"137"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1157,7 +1157,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"195"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1177,7 +1177,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"227"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1197,7 +1197,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"255"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1217,7 +1217,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"307"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1237,7 +1237,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"337"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1257,7 +1257,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c240"
+		"xpos"			"r190"
 		"ypos"			"367"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1523,11 +1523,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"180"
-		"ypos"			"0"
+		"xpos"			"r600"
+		"ypos"			"50"
 		"zpos"			"6"		
-		"wide"			"560"
-		"tall"			"560"
+		"wide"			"400"
+		"tall"			"400"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"

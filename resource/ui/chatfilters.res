@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudChatFilterPanel"
 		"xpos"			"280"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"130"
 		"tall"			"70"
@@ -17,7 +17,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"joinleave_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"5"
 		"wide"			"150"
 		"tall"			"10"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"namechange_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"15"
 		"wide"			"150"
 		"tall"			"10"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"publicchat_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"25"
 		"wide"			"150"
 		"tall"			"10"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"servermsg_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"35"
 		"wide"			"150"
 		"tall"			"10"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"teamchange_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"45"
 		"wide"			"150"
 		"tall"			"10"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"achivement_button"
-		"xpos"			"10"
+		"xpos"			"2"
 		"ypos"			"55"
 		"wide"			"150"
 		"tall"			"10"

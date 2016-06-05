@@ -24,7 +24,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/tuxohud/bg/color_panel_blu"
+		"image"			"../vgui/replay/thumbnails/bg/color_panel_blu"
 		"scaleImage"	"1"	
 	}
 		
@@ -39,7 +39,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/tuxohud/bg/color_panel_red"
+		"image"			"../vgui/replay/thumbnails/bg/color_panel_red"
 		"scaleImage"	"1"	
 	}
 		

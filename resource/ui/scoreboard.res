@@ -34,7 +34,7 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"		"35"
 		"xpos_minmode"	"0"
@@ -48,11 +48,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
+		"fillcolor"		"customBT"
 		
 		if_mvm
 		{
@@ -61,7 +57,7 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"		"299"
 		"xpos_minmode"	"0"
@@ -75,11 +71,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
+		"fillcolor"		"customRT"
 		
 		if_mvm
 		{
@@ -88,7 +80,7 @@
 	}
 	"MainBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"		"35"
 		"xpos_minmode"	"0"
@@ -103,7 +95,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"fillcolor"				"0 0 0 100"
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"
 		"draw_corner_width"		"0"
@@ -392,8 +384,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"		"15"
-		"linespacing_minmode"	"14"
+		"linespacing"		"14"
+		"font"			"ffont10"
 		"fgcolor"		"blue"
 	}
 	"RedPlayerList"
@@ -413,8 +405,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"		"15"
-		"linespacing_minmode"	"14"
+		"linespacing"		"14"
+		"font"			"ffont10"
 		"textcolor"		"red"
 	}
 	"VerticalLine"
@@ -509,7 +501,7 @@
 	}	
 	"ShadedBar"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"shadedbar"
 		"xpos"		"35"
 		"xpos_minmode"	"0"
@@ -524,7 +516,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"fillcolor"				"0 0 0 100"
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional

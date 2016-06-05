@@ -40,7 +40,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"BG"
-		"xpos"					"0"
+		"xpos"					"94"
 		"ypos"					"-1"
 		"zpos"					"-10"
 		"wide"					"40"
@@ -52,12 +52,29 @@
 		"fillcolor"				"0 0 0 200"
 		"PaintBackgroundType"	"1"
 	}
+	"BGS"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS"
+		"xpos"					"0"
+		"ypos"					"-1"
+		"zpos"					"-10"
+		"wide"					"94"
+		"tall"					"98"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
+		"PaintBackgroundType"	"1"
+	}
 	
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"5"
+		"xpos"			"99"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"30"
@@ -107,7 +124,7 @@
 		"fieldName"		"NumberLabel"
 		"font"			"ffont20"
 		"fgcolor"		"White"
-		"xpos"			"0"
+		"xpos"			"94"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"40"

@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"ffont10"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
@@ -29,6 +29,6 @@
 		"wide"			"500"
 		"tall"			"50"
 		"autoResize"	"0"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 }

@@ -1,4 +1,7 @@
 //https://github.com/SnowshoeIceboot/TF2HudPlus/blob/master/scripts/hudlayout.res
+//there more information
+
+//first load tf2 original hudlayout, then my custom hudlayout
 #base "hudlayout_original.res"
 
 "Resource/HudLayout.res"
@@ -16,11 +19,13 @@
 
 	HudWeaponAmmo
 	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
+		"fieldName" 			"HudWeaponAmmo"
+		"visible" 				"1"
+		"enabled" 				"1"
 		"xpos"					"c110"
+		"xpos_minmode"			"c110"
 		"ypos"					"r150"
+		"ypos_minmode"			"r150"
 		"wide"					"170"
 		"tall"					"120"
 	
@@ -150,6 +155,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c110"
 		"ypos"					"r150"
+		"xpos_minmode"			"c110"
+		"ypos_minmode"			"r150"
 		"wide"					"116"
 		"tall"  				"50"
 		"visible" 				"1"
@@ -162,6 +169,8 @@
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-185"
 		"ypos"					"r170"
+		"xpos_minmode"			"c-185"
+		"ypos_minmode"			"r170"
 		"wide"					"60"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -339,10 +348,12 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"					"c-50"
-		"ypos"					"r150"
-		"wide"					"100"
-		"tall"  				"50"
+		"xpos"					"0"
+		"ypos"					"0"
+		"xpos_minmode"					"0"
+		"ypos_minmode"					"r150"
+		"wide"					"f0"
+		"tall"  				"480"
 	}
 	
 	ScorePanel
@@ -359,7 +370,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-200"
+		"xpos"			"c-240"
 		"ypos"			"c-120"
 		"wide"			"400"
 		"tall"			"200"
@@ -397,6 +408,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"2"
+		"ypos"			"145"
 		"NormalY"		"145"
 		"EngineerY"		"300"
 		"zpos"			"2"
@@ -436,10 +448,33 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
-		"ypos"					"215"
+		"ypos"					"270"
 		"wide"					"200"
 		"tall"					"300"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
+	}
+	
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-140"
+		"ypos"					"270"
+		"wide"					"280"
+		"tall"					"218"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-160"
+		"ypos"			"r60"
+		"wide"			"320"
+		"tall"			"60"
+		"PaintBackgroundType"	"0"
 	}
 }

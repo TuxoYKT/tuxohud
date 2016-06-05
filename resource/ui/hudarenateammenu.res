@@ -88,8 +88,8 @@
 
 		"fgcolor"					"customFGcolor"
 		"bgcolor"					"customBGcolor"
-		"defaultBgColor_override" 	"153 204 255 50"
-		"armedBgColor_override" 	"153 204 255 100"
+		"defaultBgColor_override" 	"136 116 97 100"
+		"armedBgColor_override" 	"136 116 97 200"
 		"depressedBgColor_override" "customDepressedBgColor"
 		"selectedBgColor_override" 	"customSelectedBgColor"
 	}
@@ -111,6 +111,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
 	}
 	
 	"teambutton3"
@@ -168,16 +169,13 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"r190"
-		"xpos_hidef"			"r200"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"r105"
+		"ypos"			"-10"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"100"
+		"tall"			"500"
 		"autoResize"	"0"
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -186,7 +184,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
+		"font"			"ffont20"
+		
+		"fgcolor"					"customFGcolor"
+		"bgcolor"					"customBGcolor"
+		"defaultBgColor_override" 	"41 37 38 100"
+		"armedBgColor_override" 	"41 37 38 200"
+		"depressedBgColor_override" "customDepressedBgColor"
+		"selectedBgColor_override" 	"customSelectedBgColor"
 	}
 		
 	"TeamMenuAuto"
@@ -291,7 +296,7 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 180"

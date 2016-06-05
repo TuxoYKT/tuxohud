@@ -29,7 +29,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/tuxohud/bg/color_panel_blu"
+		"image"			"../vgui/replay/thumbnails/bg/color_panel_blu"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/tuxohud/bg/color_panel_red"
+		"image"			"../vgui/replay/thumbnails/bg/color_panel_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -258,8 +258,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-30"
-		"ypos"			"r110"
-		"zpos"			"10"
+		"ypos"			"r85"
+		"zpos"			"-10"
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"0"
@@ -363,7 +363,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-70"
 		}
 		
 		"if_hybrid_double"
@@ -373,7 +373,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r65"
 		}
 		
 		"if_no_flags"
@@ -425,11 +425,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
+		"xpos"			"c-25"
 		"ypos"			"r85"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -440,7 +440,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r50"
 		}
 	}
 

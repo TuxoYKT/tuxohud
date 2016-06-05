@@ -24,7 +24,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/logos/tuxohud/bg/color_panel_blu"
+			"image"			"../vgui/replay/thumbnails/bg/color_panel_blu"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -110,7 +110,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/logos/tuxohud/bg/color_panel_red"
+			"image"			"../vgui/replay/thumbnails/bg/color_panel_red"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"

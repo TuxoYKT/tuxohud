@@ -36,7 +36,7 @@
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"200"
-		"tall"	 		"32"
+		"tall"	 		"28"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -97,7 +97,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"ffont15"
+		"font"			"ffont12"
 		"xpos"			"12"
 		"ypos"			"44"
 		"zpos"			"1"
@@ -108,7 +108,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%weaponname%"
-		"textAlignment"		"West"
+		"textAlignment"		"north-west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}

@@ -133,7 +133,24 @@
 		"wide"			"100"
 		"tall"			"58"
 		"visible"		"1"
-	}	
+	}
+	"BGS_1"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS_1"
+		"xpos"					"14"
+		"ypos"					"11"
+		"zpos"					"-100"
+		"wide"					"94"
+		"tall"					"58"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
+		"PaintBackgroundType"	"1"
+	}
 	
 	"active_item_2"
 	{
@@ -146,6 +163,23 @@
 		"tall"			"30"
 		"visible"		"1"
 	}	
+	"BGS_2"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS_2"
+		"xpos"					"14"
+		"ypos"					"71"
+		"zpos"					"-100"
+		"wide"					"94"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
+		"PaintBackgroundType"	"1"
+	}
 	
 	"active_item_3"
 	{
@@ -158,7 +192,24 @@
 		"tall"			"30"
 		"visible"		"1"
 	}	
-	
+	"BGS_3"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS_3"
+		"xpos"					"14"
+		"ypos"					"102"
+		"zpos"					"-100"
+		"wide"					"94"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
+		"PaintBackgroundType"	"1"
+	}	
+
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -169,6 +220,23 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
+	}
+	"BGS_4"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS_4"
+		"xpos"					"14"
+		"ypos"					"133"
+		"zpos"					"-100"
+		"wide"					"94"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
+		"PaintBackgroundType"	"1"
 	}
 	
 	"already_built_item_1"

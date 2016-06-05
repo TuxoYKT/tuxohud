@@ -53,10 +53,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBarW"	
 		"xpos"			"20"
-		"ypos"			"120"
+		"ypos"			"124"
 		"zpos"			"0"
 		"wide"			"180"
-		"tall"			"10"
+		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 150"
@@ -65,11 +65,14 @@
 		{
 			"ypos"			"110"
 			"zpos"			"3"
+			"tall"			"10"
 			"fillcolor"		"0 0 0 100"
 		}
 		
 		"if_single_with_hills"
 		{
+			"ypos"			"120"
+			"tall"			"10"
 			"fillcolor"	"0 0 0 200"
 		}		
 	}

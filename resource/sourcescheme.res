@@ -10,8 +10,8 @@ Scheme
 		"thText"					"255 255 255 215"
 		"thSelectedText"			"255 255 255 255"
 		
-		"thActiveWindowBG"			"24 20 18 240"
-		"thInactiveWindowBG"		"24 20 18 125"
+		"thActiveWindowBG"			"24 24 24 240"
+		"thInactiveWindowBG"		"24 24 24 200"
 		"thBorder"					"0 0 0 0"
 		"thBorderSelected"			"0 0 0 0"
 		

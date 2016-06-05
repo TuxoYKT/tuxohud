@@ -21,6 +21,7 @@ Scheme
 		//tuxohud colors
 		"customShadow"		"66 53 60 200"
 		"customHTMLBG"		"0 0 0 150"
+		
 		"customFGcolor"				"255 255 255 255"
 		"customBGcolor"				"41 37 38 255"
 		"customDefaultBgColor" 		"41 37 38 255"
@@ -28,10 +29,12 @@ Scheme
 		"customDepressedBgColor" 	"41 37 38 255"
 		"customSelectedBgColor" 	"41 37 38 255"
 		
-		"customBT"					"153 204 255 120"
-		"customRT"					"255 63 53 120"
-		"customBTDark"				"103 154 205 120"
-		"customRTDark"				"205 13 3 120"
+		"customBG"					"0 0 0 200"
+		
+		"customBT"					"45 117 215 120"
+		"customRT"					"215 65 45 120"
+		"customBTDark"				"35 107 205 120"
+		"customRTDark"				"205 55 35 120"
 		
 		"customTarget"				"0 0 0 130"
 		
@@ -43,6 +46,16 @@ Scheme
 		
 		"streamsBG"					"0 0 0 80"
 		"streamsFG"					"50 50 50 255"
+		"twitch"					"142 92 184 255"
+		
+		"customHealth"				"255 255 255 255"
+		"customOverheal"			"82 200 207 255"
+		"customLowHealth"			"204 102 102 255"
+		
+		"customAmmoInClip"			"255 255 255 255"
+		"customAmmoInReverse"		"255 255 255 255"
+		"customLowAmmoInClip"			"224 122 122 255"
+		"customLowAmmoInReverse"		"191 113 114 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -480,6 +493,17 @@ Scheme
 	Fonts
 	{
 	//tuxohud fonts
+	
+		//icons
+		"tuxohud_icons"
+		{
+			"1"
+			{
+				"name"		"tuxohud_icons"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}		
 		//hit indicator fonts
 		"damage"
 		{
@@ -5589,5 +5613,6 @@ Scheme
 				"range" "0x0000 0x0451"
 			}
 		}
+		"10" "resource/fonts/tuxohud_icons.otf"
 	}
 }

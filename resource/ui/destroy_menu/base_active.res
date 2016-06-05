@@ -40,7 +40,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"BG"
-		"xpos"					"0"
+		"xpos"					"98"
 		"ypos"					"-1"
 		"zpos"					"-10"
 		"wide"					"40"
@@ -50,6 +50,24 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 200"
+		"PaintBackgroundType"	"1"
+	}
+	
+	"BGS"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BGS"
+		"xpos"					"0"
+		"ypos"					"-1"
+		"zpos"					"-10"
+		"wide"					"98"
+		"tall"					"98"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../vgui/replay/thumbnails/gradient/east/gradient_base"
+		"scaleImage"			"1"
 		"PaintBackgroundType"	"1"
 	}
 	

@@ -30,20 +30,33 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 	}
+	
+	"BG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BG"
+		"xpos"					"c-200"
+		"ypos"					"0"
+		"zpos"					"-10"
+		"wide"					"400"
+		"tall"					"500"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 205"
+		"PaintBackgroundType"	"1"
+	}
 
 	"Skip" [$WIN32] 
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
-		"xpos"			"r190"
-		"xpos_lodef"			"r222"
-		"xpos_hidef"			"r232"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"r110"
+		"ypos"			"-10"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"100"
+		"tall"			"500"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -55,22 +68,25 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"MenuSmallFont"
+		"font"			"ffont12"
+		
+		"fgcolor"					"customFGcolor"
+		"bgcolor"					"customBGcolor"
+		"defaultBgColor_override" 	"0 0 0 200"
+		"armedBgColor_override" 	"0 0 0 100"
+		"depressedBgColor_override" "customDepressedBgColor"
+		"selectedBgColor_override" 	"customSelectedBgColor"
 	}
 
 	"Continue" [$WIN32] 
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
-		"xpos"			"r190"
-		"xpos_lodef"			"r222"
-		"xpos_hidef"			"r232"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"r110"
+		"ypos"			"-10"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"100"
+		"tall"			"500"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -82,21 +98,25 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"MenuSmallFont"
+		"font"			"ffont12"
+		
+		"fgcolor"					"customFGcolor"
+		"bgcolor"					"customBGcolor"
+		"defaultBgColor_override" 	"0 0 0 200"
+		"armedBgColor_override" 	"0 0 0 100"
+		"depressedBgColor_override" "customDepressedBgColor"
+		"selectedBgColor_override" 	"customSelectedBgColor"
 	}
 	
 	"Back" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
-		"xpos"			"40"
-		"xpos_hidef"			"50"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"10"
+		"ypos"			"-10"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"100"
+		"tall"			"500"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -106,8 +126,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"font"			"ffont15"
+		
+		
+		"fgcolor"					"customFGcolor"
+		"bgcolor"					"customBGcolor"
+		"defaultBgColor_override" 	"0 0 0 200"
+		"armedBgColor_override" 	"0 0 0 100"
+		"depressedBgColor_override" "customDepressedBgColor"
+		"selectedBgColor_override" 	"customSelectedBgColor"
 	}
 
 	"ReplayVideo" [$WIN32] 
@@ -150,7 +177,7 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
@@ -162,7 +189,7 @@
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
-		"xpos"			"c-145"
+		"xpos"			"c-150"
 		"ypos"			"c-183"
 		"zpos"			"3"		
 		"wide"			"300"
@@ -186,7 +213,7 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -228,10 +255,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"c-145"
+		"xpos"			"c-150"
 		"ypos"			"c40"
 		"zpos"			"6"
-		"wide"			"295"
+		"wide"			"300"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -241,7 +268,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"IntroMenuCaption"
+		"font"			"ffont20"
 		"fgcolor"		"White"
 		"wrap"			"1"
 	}
