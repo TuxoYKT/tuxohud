@@ -87,7 +87,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"ypos"			"33"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -98,7 +98,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ffont8"
+		"font"			"ffont10"
 
 		if_comp
 		{
@@ -119,7 +119,7 @@
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
@@ -145,7 +145,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ffont8"
+		"font"			"ffont10"
 
 		if_comp
 		{

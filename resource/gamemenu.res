@@ -69,7 +69,7 @@
 	"Scoreboard"
 	{
 		"label"			"Scoreboard"
-		"command"		"engine hud_reloadscheme"
+		"command"		"engine toggle cl_hud_minmode"
 	}
 
 	// These buttons get positioned by the MainMenuOverride.res
