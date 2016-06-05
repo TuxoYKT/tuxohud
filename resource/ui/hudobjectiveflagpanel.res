@@ -347,7 +347,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-115"
-		"ypos"			"r85"
+		"ypos"			"r75"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"60"
@@ -368,7 +368,7 @@
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-115"
+			"xpos"		"c-105"
 		}
 
 		"if_specialdelivery"
@@ -386,8 +386,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-45"
-		"ypos"			"r85"
+		"xpos"			"c-25"
+		"ypos"			"r75"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"60"
@@ -426,7 +426,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-25"
-		"ypos"			"r85"
+		"ypos"			"r60"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
