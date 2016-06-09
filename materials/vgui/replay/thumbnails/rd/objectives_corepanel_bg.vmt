@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/rd/objectives_corepanel_bg"
+	$translucent 1
+}

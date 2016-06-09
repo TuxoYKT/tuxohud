@@ -68,7 +68,7 @@
 		"scaleImage"	"1"	
 		"labelText"		"N"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"customPomsonIcon"
 		"font"			"tuxohud_icons"
 	}
 	"ItemEffectIconShadow"	
@@ -110,7 +110,7 @@
 	"ItemEffectMeterShadow"
     {
 		"ControlName"   "ImagePanel"
-		"fieldName"     "PlayerStatusHealthValueBg"
+		"fieldName"     "ItemEffectMeterShadow"
 		"xpos"			"50"
 		"ypos"			"22"
 		"zpos"			"1"

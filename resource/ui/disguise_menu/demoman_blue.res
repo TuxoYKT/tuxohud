@@ -1,15 +1,16 @@
-"Resource/UI/disguise_menu/demoman_blue.res"
+"Resource/UI/disguise_menu/scout_blue.res"
 {
 	"ItemNameLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"ffont10"
+		"font"			"ffont12"
+		"font_minmode"			"ffont10"
 		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"20"
+		"wide"			"60"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -19,7 +20,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-		
+	
 	"ClassIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -32,9 +33,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_demoman_blu"
+		"icon"			"hud_menu_scout_blu"
 	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -42,7 +43,7 @@
 		"xpos"			"15"
 		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"15"
+		"wide"			"16"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
@@ -55,13 +56,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"ffont10"
+		"font"			"ffont12"
 		"fgcolor"		"customBT"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"20"
+		"wide"			"16"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -71,21 +72,21 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"ffont10"
+		"font"			"ffont12"
 		"fgcolor"		"customBT"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"20"
+		"wide"			"16"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"4"
 		"textAlignment"	"Center"

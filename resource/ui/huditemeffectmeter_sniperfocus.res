@@ -68,7 +68,7 @@
 		"scaleImage"	"1"	
 		"labelText"		"F"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"customSniperFocus"
 		"font"			"tuxohud_icons"
 	}
 	"ItemEffectIconShadow"	
@@ -95,10 +95,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"48"
-		"ypos"					"20"
+		"ypos"					"21"
 		"zpos"					"1"
 		"wide"					"55"
-		"tall"					"5"			
+		"tall"					"6"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -110,17 +110,17 @@
 	"ItemEffectMeterShadow"
     {
 		"ControlName"   "ImagePanel"
-		"fieldName"     "PlayerStatusHealthValueBg"
+		"fieldName"     "ItemEffectMeterShadow"
 		"xpos"			"50"
-		"ypos"			"22"
+		"ypos"			"23"
 		"zpos"			"1"
 		"wide"			"55"
-		"tall"			"5"	
+		"tall"			"6"
 		"autoResize"    "0"
 		"pinCorner"     "0"
 		"visible"       "1"
 		"enabled"       "1"
 		"fillcolor"     "customShadow"
 		"PaintBackgroundType" "0"
-	}		
+	}	
 }

@@ -49,7 +49,7 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"73"
 		"ypos"			"33"
-		"zpos"			"0"
+		"zpos"			"-100"
 		"wide"			"55"
 		"tall"			"55"
 		"visible"		"0"

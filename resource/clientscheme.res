@@ -57,6 +57,22 @@ Scheme
 		"customLowAmmoInClip"			"224 122 122 255"
 		"customLowAmmoInReverse"		"191 113 114 255"
 		
+		"customItemIcon"				"255 255 255 255"
+		"customCleaverIcon"				"194 194 194 255"
+		"customHeadsIcon"				"255 255 255 255"
+		"customCritsIcon"				"230 161 23 255"
+		"customKillstreakIcon"			"255 255 255 255"
+		"customCowManglerIcon"			"210 210 210 255"
+		"customPomsonIcon"				"176 49 49 255"
+		"customBisonIcon"				"210 210 210 255"
+		"customScoutSecondaryIcon"		"255 255 255 255"
+		"customSniperFocus"				"255 255 255 255"
+		"customScoutHype"				"206 132 233 255"
+		"customSpycicleIcon"			"102 178 186 255"
+		
+		"customScoreboardKills"			"47 165 189 255"
+		"customScoreboardDeaths"		"207 76 76 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2459,7 +2475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Clear Sans"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2468,7 +2484,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Clear Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2477,7 +2493,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Clear Sans"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5599,6 +5615,14 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"9" 
 		{
@@ -5611,6 +5635,14 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"10" "resource/fonts/tuxohud_icons.otf"

@@ -166,10 +166,25 @@
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
 			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+			"scaleImage"	"1"	
+		}
+		
+		"PlayingToBGW"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayingToBGW"
+			"xpos"			"c-65"
+			"ypos"			"r36"
+			"zpos"			"3"
+			"wide"			"130"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 195"
 			"scaleImage"	"1"	
 		}
 	}

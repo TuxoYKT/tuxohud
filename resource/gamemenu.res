@@ -68,7 +68,7 @@
 	}
 	"Scoreboard"
 	{
-		"label"			"Scoreboard"
+		"label"			"Minmode"
 		"command"		"engine toggle cl_hud_minmode"
 	}
 

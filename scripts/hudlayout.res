@@ -370,7 +370,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-240"
+		"xpos"			"0"
 		"ypos"			"c-120"
 		"wide"			"400"
 		"tall"			"200"
@@ -476,5 +476,71 @@
 		"wide"			"320"
 		"tall"			"60"
 		"PaintBackgroundType"	"0"
+	}
+	
+	CMainTargetID
+	{
+		"fieldName" 	"CMainTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"285"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"40"
+		"priority_lodef"	"5"
+
+		if_vr
+		{
+			"ypos"		"370"
+			"x_offset"	"20"
+		}
+	}
+	
+	CSpectatorTargetID
+	{
+		"fieldName" 	"CSpectatorTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"250"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"40"
+		"priority_lodef" "35"
+		
+		"x_offset" "20"
+		"y_offset" "20"
+	}
+	
+	CSecondaryTargetID
+	{
+		"fieldName" 	"CSecondaryTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"335"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"35"
+
+		if_vr
+		{
+			"ypos"		"330"
+			"x_offset"	"20"
+		}
+
+	}
+	
+	HudInspectPanel
+	{
+		"fieldName"				"HudInspectPanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"r160"
+		"ypos"					"rs1"
+		"zpos"					"10"
+		"wide"					"150"
+		"tall"					"f0"
 	}
 }

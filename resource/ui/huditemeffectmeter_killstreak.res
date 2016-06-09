@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"leaderboard_streak"
-		"iconColor"		"White"
+		"iconColor"		"customKillstreakIcon"
 	}
 	"ItemEffectIconShadow"	
 	{

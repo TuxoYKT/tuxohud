@@ -19,25 +19,13 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"10"
+		"delta_item_x"			"35"
+		"delta_item_start_y"	"40"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"3"
 		"delta_item_font"		"ffont20"
-		
-		if_comp
-		{
-			"proportionaltoparent"	"1"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"ffont10"
-		}
 		
 		"TimePanelValue"
 		{
@@ -68,25 +56,13 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"10"
+		"delta_item_x"			"35"
+		"delta_item_start_y"	"40"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"3"
 		"delta_item_font"		"ffont20"
-		
-		if_comp
-		{
-			"proportionaltoparent"	"1"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"ffont10"
-		}
 		
 		"TimePanelValue"
 		{

@@ -57,8 +57,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"28"
-		"ypos"			"12"
+		"xpos"			"30"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"16"
 		"tall"			"16"
@@ -67,15 +67,15 @@
 		"scaleImage"	"1"	
 		"labelText"		"E"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"customCritsIcon"
 		"font"			"tuxohud_icons"
 	}
 	"ItemEffectIconShadow"	
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"30"
-		"ypos"			"14"
+		"xpos"			"32"
+		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"16"
 		"tall"			"16"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"45"
+		"xpos"					"48"
 		"ypos"					"9"
 		"zpos"					"2"
 		"wide"					"55"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"47"
+		"xpos"					"50"
 		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"55"
