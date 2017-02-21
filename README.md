@@ -1,6 +1,8 @@
 tuxohud
 ==========
 
+This HUD is now private. Due of the lazyness to fix crashes in Competitive Mode.
+
 Team Fortress 2 custom HUD. Inspired by e.v.eHUD, and sweetHud.
 
 Credits
